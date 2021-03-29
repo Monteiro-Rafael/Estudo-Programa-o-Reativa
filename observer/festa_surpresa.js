@@ -24,8 +24,11 @@ function namorada(){
 }
 
 //observer
-function sindico(){
-    console.log('S: Monitorando o Barulho')        
+function sindico(evento){
+    console.log('S: Monitorando o Barulho') 
+    console.log(`S: evento -> ${evento.resp}`) 
+    console.log(`S: evento -> ${evento.data}`) 
+
 
 }
 
@@ -35,7 +38,7 @@ async function porteiro(interessados){
         const resp = await obterResposta('O namorado chegou? (s/N/q) ')
         if (resp.toLowerCase() === 's'){
             // os observadores são notificados
-            (interessados || []).forEach(obs => obs()) // [] caso nada seja passado, não vai dar erro.
+            (interessados || []).forEach(obs => obs({ resp, data: new Date().toString()})) // [] caso nada seja passado, não vai dar erro.
         } else if (resp.toLowerCase() === 'q'){
             break
         }
