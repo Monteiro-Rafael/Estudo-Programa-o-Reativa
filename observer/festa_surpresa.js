@@ -14,24 +14,32 @@ function obterResposta(pergunta){
     })    
 }
 
+//observer
 function namorada(){
-    setTimeout(()=> {
-        console.log('N: Apagar as luzes')
-        console.log('N: Pedir silêncio')
-        console.log('N: Surpresa!!!!!!')
-    }, 2000)
+    
+    console.log('N: Apagar as luzes')
+    console.log('N: Pedir silêncio')
+    console.log('N: Surpresa!!!!!!')
 
 }
+
+//observer
 function sindico(){
-    setTimeout(()=> {
-        console.log('S: Monitorando o Barulho')        
-    }, 1000)
+    console.log('S: Monitorando o Barulho')        
 
 }
 
-
-function porteiro(interessados){
-    interessados.forEach(obs => obs())
+//subject
+async function porteiro(interessados){
+    while(true){
+        const resp = await obterResposta('O namorado chegou? (s/N/q) ')
+        if (resp.toLowerCase() === 's'){
+            // os observadores são notificados
+            (interessados || []).forEach(obs => obs()) // [] caso nada seja passado, não vai dar erro.
+        } else if (resp.toLowerCase() === 'q'){
+            break
+        }
+    }
 }
 
-porteiro([namorada, sindico])
+porteiro([namorada, sindico]) // registro de dois observers
