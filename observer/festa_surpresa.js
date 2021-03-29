@@ -14,5 +14,24 @@ function obterResposta(pergunta){
     })    
 }
 
-obterResposta('Esse é um teste?')
-    .then(console.log)
+function namorada(){
+    setTimeout(()=> {
+        console.log('N: Apagar as luzes')
+        console.log('N: Pedir silêncio')
+        console.log('N: Surpresa!!!!!!')
+    }, 2000)
+
+}
+function sindico(){
+    setTimeout(()=> {
+        console.log('S: Monitorando o Barulho')        
+    }, 1000)
+
+}
+
+
+function porteiro(interessados){
+    interessados.forEach(obs => obs())
+}
+
+porteiro([namorada, sindico])
