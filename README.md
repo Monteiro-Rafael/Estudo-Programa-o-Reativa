@@ -12,7 +12,7 @@ O programa descreve um cenário de uma festa surpresa preparada por uma mulher p
 3. O porteiro do prédio (Subject)
 4. O namorado (event)
 
-O objetivo é que quando o namorado(event) chegue, o porteiro(subject) avise a mulher(observer1) e o síndico(observer2). 
+O objetivo é que quando o namorado(event) chegar, o porteiro(subject) avise a mulher(observer1) e o síndico(observer2). 
 Assim que é avisada, a mulher começa a fazer os preparativos para recebê-lo e o síndico começa a monitorar o barulho da festa.
 
 
@@ -21,4 +21,4 @@ Assim que é avisada, a mulher começa a fazer os preparativos para recebê-lo e
 
 Pasta 2 - rxjs
 
-
+O objetivo do programa é simular um stream de dados que seja transmitido por um intervalo determinado. 
