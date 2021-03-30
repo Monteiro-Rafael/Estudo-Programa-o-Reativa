@@ -28,24 +28,30 @@ O objetivo do programa é simular um stream de dados que seja transmitido por um
 
 ---------------------------------------------------------------------------------------------------------
 
-<h2>stream_dados_2</h2>
+<h3>stream_dados_2</h3>
 
 O objetivo do programa é receber uma string e enviar os dados como stream para serem tratados.
 
 ---------------------------------------------------------------------------------------------------------
 
-<h2>stream_dados_3</h2>
+<h3>stream_dados_3</h3>
 
 O objetivo é testar subscribe e unsubscribe
 
 ---------------------------------------------------------------------------------------------------------
 
-<h2>observable_1</h2>
+<h3>observable_1</h3>
 
 O objetivo é verificar a diferença entre o resolve da Promise e o subscriber do Observable. 
 
 ---------------------------------------------------------------------------------------------------------
 
-<h2>observable_2</h2>
+<h3>observable_2</h3>
 
 Criar um Observable usando o 'create'
+
+---------------------------------------------------------------------------------------------------------
+
+<h3>observable_3</h3>
+
+Criar uma string de numeros entre min e max com observable
