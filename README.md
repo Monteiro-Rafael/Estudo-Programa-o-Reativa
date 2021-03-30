@@ -3,7 +3,7 @@ Repositório para estudo de programação reativa em JavaScript
 
 Projeto criado no Curso de JavaScript Funcional e Reativo - PENSE como um Dev JS. 
 
-Pasta 1 - Observer
+<h2>Pasta 1 - Observer</h2>
 
 O programa descreve um cenário de uma festa surpresa preparada por uma mulher para o seu namorado. Nesse cenário estão:
 
@@ -19,10 +19,10 @@ Assim que é avisada, a mulher começa a fazer os preparativos para recebê-lo e
 =====================================================================================================================================
 
 
-<h1>Pasta 2 - rxjs</h1>
+<h2>Pasta 2 - rxjs</h2>
 
 
-<h2>stream_dados_1</h2>
+<h3>stream_dados_1</h3>
 
 O objetivo do programa é simular um stream de dados que seja transmitido por um intervalo determinado. 
 
