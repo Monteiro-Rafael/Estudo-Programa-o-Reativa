@@ -19,6 +19,15 @@ Assim que é avisada, a mulher começa a fazer os preparativos para recebê-lo e
 =====================================================================================================================================
 
 
-Pasta 2 - rxjs
+<h1>Pasta 2 - rxjs</h1>
+
+
+<h2>stream_dados_1</h2>
 
 O objetivo do programa é simular um stream de dados que seja transmitido por um intervalo determinado. 
+
+---------------------------------------------------------------------------------------------------------
+
+<h2>stream_dados_2</h2>
+
+O objetivo do programa é receber uma string e enviar os dados como stream para serem tratados.
