@@ -55,3 +55,8 @@ Criar um Observable usando o 'create'
 <h3>observable_3</h3>
 
 Criar uma string de numeros entre min e max com observable
+
+---------------------------------------------------------------------------------------------------------
+
+<h3>operadores_1</h3>
+Estudo do uso de Pipe em rxjs e dois operadores 'last' e 'map'.
