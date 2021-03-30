@@ -1,0 +1,22 @@
+{
+  "name": "estudo-programacao-reativa",
+  "version": "1.0.0",
+  "description": "Repositório para estudo de programação reativa em JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monteiro-Rafael/Estudo-Programa-o-Reativa.git"
+  },
+  "author": "Rafael Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monteiro-Rafael/Estudo-Programa-o-Reativa/issues"
+  },
+  "homepage": "https://github.com/Monteiro-Rafael/Estudo-Programa-o-Reativa#readme",
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+}
