@@ -43,3 +43,9 @@ O objetivo é testar subscribe e unsubscribe
 <h2>observable_1</h2>
 
 O objetivo é verificar a diferença entre o resolve da Promise e o subscriber do Observable. 
+
+---------------------------------------------------------------------------------------------------------
+
+<h2>observable_2</h2>
+
+Criar um Observable usando o 'create'
