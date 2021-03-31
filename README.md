@@ -75,3 +75,8 @@ Estudo de fluxo síncrono e assíncrono via AsyncScheduler.
 
 <h3>operadores_3</h3>
 Estudo sobre a implementação de um operador de criação.
+
+---------------------------------------------------------------------------------------------------------
+
+<h3>operadores_4</h3>
+Estudo para criação de operadores. foi criado um operador com a mesma função do operador 'last'
