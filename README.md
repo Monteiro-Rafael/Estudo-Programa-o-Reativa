@@ -63,10 +63,15 @@ Estudo do uso de Pipe em rxjs e dois operadores 'last' e 'map'.
 
 ---------------------------------------------------------------------------------------------------------
 
-<h3>operadores_2</h2>
+<h3>operadores_2</h3>
 Estudo de um app que consulta e exibe os repositórios de um usuário do gitHub via api e trata os dados de forma a exibir somente os nomes dos repositórios.
 
 ---------------------------------------------------------------------------------------------------------
 
 <h3>scheduler</h3>
 Estudo de fluxo síncrono e assíncrono via AsyncScheduler.
+
+---------------------------------------------------------------------------------------------------------
+
+<h3>operadores_3</h3>
+Estudo sobre a implementação de um operador de criação.
